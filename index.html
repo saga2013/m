@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <h1>Music App</h1>
+        <img src="" alt="" id="cover">
+        <h2 id="title"></h2>
+        <div id="prog"></div>
+        <select name="" id="select" onchange="song(this.value)">
+            <option value="0">World war me</option>
+            <option value="1">Black Sunrise</option>
+            <option value="2">Discord</option>
+        </select>
+        <button onclick="previous()">⏮️</button>
+        <button onclick="playAudio()" id="play">▶️</button>
+        <button onclick="pauseAudio()" id="pause">⏸️</button>
+        <button id="next" onclick="nextAudio()">⏭️</button>
+        <audio id="audio"></audio>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

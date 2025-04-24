@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 430px;
+    height: 832px;
+    border-radius: 44px;
+    margin: 0 auto;
+    padding: 32px;
+    background: linear-gradient(180deg, #6AF2F0 -64.48%, #F8FAFC 9.15%);
+    
+}
+#prog{
+        height: 5px;
+        background-color: blue;
+}
+#select{
+    width: 375px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    margin: 20px 0;
+}
+button{
+    width: 45px;
+    height: 28px;
+    border-radius: 4px;
+}
+button:hover {
+    background: #0056b3;
+  }
+img{
+    width: 375px;
+    height: 400px;
+}
+h1{
+    margin-bottom: 20px;
+    font-family: Montserrat;
+}
+h2{
+    font-family: Montserrat;
+}
